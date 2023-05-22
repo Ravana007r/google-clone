@@ -1,0 +1,42 @@
+.searchPage__Results{
+    max-width: 650px;
+    margin: 20px 0px 100px 240px;
+}
+
+.searchPage__ResultCount{
+        color: #70757a;
+        font-size: 14px; 
+}
+.searchPage__Result{
+    margin: 40px 0px;
+}
+
+.searchPage__ResultLink{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-bottom: 3px;
+}
+.searchPage__ResultLink:hover{
+    text-decoration: underline;
+}
+.searchPage__ResultImage{
+    height: 150px !important;
+    width: 150px !important;
+    object-fit: contain;
+    margin-right: 10px;
+}
+.searchPage__ResultTitle{
+    text-decoration: none;
+}
+
+.searchPage__ResultTitle:hover{
+    text-decoration: underline;
+}
+.searchPage__ResultTitle>h2{
+    font-weight: 500;
+}
+.searchPage__ResultDescription{
+    margin-top: 10px;
+}
